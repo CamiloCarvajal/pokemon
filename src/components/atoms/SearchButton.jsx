@@ -1,6 +1,5 @@
 function SearchButton({ getInfo }) {
 
-    // console.log(getInfo)
     return (
         <button
             onClick={getInfo}>

@@ -3,9 +3,9 @@ function ItemGeneration({ generations }) {
     return (
         <>
             {
-                generations.map((g) => {
+                generations.map((g, index) => {
                     return (
-                        <li>
+                        <li key={index}>
                             {g.name}
                         </li>
                     )
