@@ -1,6 +1,6 @@
 import './App.css';
-import GenerationPage from './pages/GenerationPage';
-import PokemonPage from './pages/PokemonPage';
+import GenerationPage from './components/pages/GenerationPage';
+import PokemonPage from './components/pages/PokemonPage';
 
 function App() {
   return (

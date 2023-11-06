@@ -1,4 +1,4 @@
-import ItemGeneration from "../components/atoms/ItemGeneration"
+import ItemGeneration from "../atoms/ItemGeneration"
 
 function GenerationList({generations}) {
 

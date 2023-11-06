@@ -1,5 +1,6 @@
-import Input from "../components/atoms/Input"
-import SearchButton from "../components/atoms/SearchButton"
+import Input from "../atoms/Input"
+import SearchButton from "../atoms/SearchButton"
+
 
 function SearchForm({ setName, getInfo }) {
     return (
