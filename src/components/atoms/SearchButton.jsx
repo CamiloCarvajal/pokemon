@@ -1,6 +1,11 @@
-function SearchButton() {
+function SearchButton({ getInfo }) {
+
+    // console.log(getInfo)
     return (
-        <button>Tocame rico</button>
+        <button
+            onClick={getInfo}>
+            Buscar
+        </button>
     )
 }
 

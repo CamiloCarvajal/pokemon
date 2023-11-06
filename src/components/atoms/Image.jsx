@@ -1,7 +1,9 @@
-function Image({ source }) {
+function Image({ source, name }) {
+
     return (
         <img
             src={source}
+            alt={name}
         />
 
     )
