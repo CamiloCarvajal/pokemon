@@ -10,7 +10,7 @@ function Types({ types }) {
                     } = t;
 
                     return (
-                        <p key={index}>{pokeType}</p>
+                        <p className='tag' key={index}>{pokeType}</p>
                     )
 
                 }

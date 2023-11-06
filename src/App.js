@@ -5,11 +5,8 @@ import PokemonPage from './pages/PokemonPage';
 function App() {
   return (
     <div className="App">
-      <body>
-        
       <GenerationPage/>
       <PokemonPage/>
-      </body>
     </div>
   );
 }

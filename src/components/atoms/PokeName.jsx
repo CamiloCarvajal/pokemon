@@ -1,6 +1,6 @@
 function PokeName({name}) {
     return (
-        <h4>{name}</h4>
+        <h4 className="poke-title">{name}</h4>
     )
 }
 
